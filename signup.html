@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- 
+    <link rel="stylesheet" href="login.html">
     <style>
         body{ 
          background: white;
-
+        
         }
+ 
+
+
       #container{
           width:400px;
           height:550px;
@@ -49,10 +52,7 @@
           cursor: pointer;
       }
 
-     a {
-       text-decoration: none !important;
-       color:blue;
-      }
+   
       #login {
         text-align: center;
         font-size: 40px;
@@ -63,14 +63,14 @@
     </style>
 </head>
 <body>
- <form action="">
+ <form action="login.html">
     <div id="container">
         <div id="login">- visitor -</div>
        <input type="text"  placeholder="Full name"  required>
        <input type="email" placeholder="Email" required>
        <input type="text" placeholder="organization" required>
-       <button>SIGNUP</button><br>
-       <button>RETURN</button>
+       <button class="a" >SIGNUP</button><br>
+       <button><a href="signup.html">RETURN</a> </button>
  </form>
 
     </div>
