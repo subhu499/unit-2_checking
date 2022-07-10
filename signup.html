@@ -9,7 +9,7 @@
  
     <style>
         body{ 
-         background: linear-gradient(to right , rgb(4, 220, 248) 0% , purple 100%);
+         background: white;
 
         }
       #container{
@@ -24,28 +24,28 @@
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           border-radius: 15px;
-       
+          background-color: darkslategray;
 
       }
       input  {
        width: 100%;
-       padding: 12px 20px;
-       margin: 8px 0;
+       padding: 25px 20px;
+       margin: 12px 20px;
        box-sizing: border-box;
        border: none;
        border-bottom: 2px solid grey;
-       margin-top: 45px;
+       margin-top: 10px;
        }
       input, button{
           width:75%
       }
       button{
           padding:15px 10px;
-          background: blue;
+          background: teal;
           border:none;
           color:white;
           font-size: 18px;
-          background: linear-gradient(to right , rgb(57, 57, 173) 0% , purple 100%);
+          background: linear-gradient(to right , rgb(57, 100) 0% , purple 50%);
           cursor: pointer;
       }
 
@@ -58,18 +58,21 @@
         font-size: 40px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-       
+        color: white;
       }
     </style>
 </head>
 <body>
+ <form action="">
     <div id="container">
-    <div id="login">Login</div>
-   <input type="email"  placeholder="Email"  required><br><br>
-   <input type="password" placeholder="Password" required><br><br>
-   <button>Login</button><br><br>
-  <div> Forget&nbsp;&nbsp;<a href="">Password?</a><br><br></div>
-  <div>Don't have an account? <a href="">Signup</a></div>
+        <div id="login">- visitor -</div>
+       <input type="text"  placeholder="Full name"  required>
+       <input type="email" placeholder="Email" required>
+       <input type="text" placeholder="organization" required>
+       <button>SIGNUP</button><br>
+       <button>RETURN</button>
+ </form>
+
     </div>
 </body>
 </html>
